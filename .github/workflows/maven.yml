@@ -22,6 +22,8 @@ jobs:
          java-version: '1.8'
          distribution: 'adopt'
          cache: maven
+      - name: Clean Maven
+        run: mvn clean install
       - name: Build and push docker Image
         uses: mr-smithers-excellent/docker-build-push@v5
         with:
