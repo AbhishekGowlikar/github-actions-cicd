@@ -11,7 +11,7 @@ public class GithubcicdApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-      return "Welcome to NEW TEK Systems !!!";
+      return "Welcome to NEW-KICK TEK Systems !!!";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(GithubcicdApplication.class, args);
